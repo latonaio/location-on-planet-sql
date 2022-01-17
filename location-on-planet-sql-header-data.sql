@@ -1,6 +1,6 @@
-CREATE TABLE `location_on_planet_header_data`
+CREATE TABLE `location_on_satellite_header_data`
 (
-  `Planet`                       varchar(20) NOT NULL,
+  `Satellite`                    varchar(20) NOT NULL,
   `LocationID`                   varchar(20) NOT NULL,
   `LocationName`                 varchar(20) DEFAULT NULL,
   `XCoodinateOfCenter`           varchar(20) DEFAULT NULL,
@@ -28,6 +28,6 @@ CREATE TABLE `location_on_planet_header_data`
   `Address2`                     varchar(60) DEFAULT NULL,
   `Address3`                     varchar(60) DEFAULT NULL,
   `Comment`                      varchar(255) DEFAULT NULL,
-    PRIMARY KEY (`Planet`, `LocationID`)
+    PRIMARY KEY (`Satellite`, `LocationID`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
