@@ -13,3 +13,4 @@ location-on-planet-sql には、sqlの設定ファイルとして、以下のフ
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
 
 
+
